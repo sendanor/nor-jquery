@@ -4,7 +4,7 @@
   "description": "jQuery NPM wrapper for easier use with browserify",
   "main": "node_modules/jquery/",
   "scripts": {
-    "install": "cd node_modules/jquery && npm run build",
+    "install": "cd node_modules/jquery && npm install -d && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +20,8 @@
     "url": "https://github.com/Sendanor/nor-jquery/issues"
   },
   "dependencies": {
-    "jquery": "jquery/jquery#1.10.2"
+    "jquery": "jquery/jquery#1.10.2",
+    "grunt-cli": "*"
   },
   "homepage": "https://github.com/Sendanor/nor-jquery"
 }

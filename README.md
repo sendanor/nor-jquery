@@ -13,10 +13,15 @@ It declares a dependency for current jQuery from Github. When you do
 ***Please note:*** The actual version for jQuery might be any 1.x even if 
 this module lists the version as 1.x.
 
-Installation
+State
+-----
+
+Currently this package is not working.
+
+Usage
 ------------
 
-You may install it from the NPM in `package.json`:
+You may use it from the NPM in `package.json`:
 
 ```javascript
 {
